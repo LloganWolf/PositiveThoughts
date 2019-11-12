@@ -63,6 +63,9 @@ cd path/to/my/folder
    ```
    yarn start
    ```
+   
+   *4/ Documentation API*
+   For more informations about the API, check this URL : http://localhost:6002/api/v1/documentation/
 
 Have fun !
 
