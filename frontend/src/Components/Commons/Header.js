@@ -40,19 +40,8 @@ class Header extends Component {
                   <div className="hmeta">Gardez en tête toutes vos pensées positives</div>
                 </div>
               </div>
-              {/* <Recherche />  A SUPPRIMER*/}
-               <div className="col-md-3 col-md-offset-3 col-sm-4">
-                
-                 <form className="form-inline">
-                  <div className="form-group">
-                    <input type="text" className="form-control" id="search" placeholder="Recherche..." />
-                  </div>
-                  <button type="submit" className="form-control btn cb-bouton_vert"><i className="fa fa-search" aria-hidden="true"></i></button>
-                </form> 
-                
-              </div>
               
-			  <div className="col-md-1 col-sm-1">
+	      <div className="col-md-1 col-sm-1">
                 <form onSubmit={e => this.handle_logout(e)}>
                   <button id="deconnexion" type="submit" className="btn cb-bouton_vert"><i className="fa fa-sign-out" aria-hidden="true"></i></button>
                 </form>
