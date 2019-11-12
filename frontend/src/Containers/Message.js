@@ -40,7 +40,6 @@ class App extends Component {
   componentDidMount() {
     axios.get(`${ENDPOINT}/messages/${this.state.identifiant}`)
         .then(res => {
-          console.log(res.data.result)
             this.setState({
               id: res.data.result.id,
               title: res.data.result.title,
