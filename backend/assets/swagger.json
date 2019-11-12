@@ -1,0 +1,142 @@
+{
+    "info": {
+      "title": "Positive Thoughts",
+      "version": "1.0.0",
+      "description": "Positive messages handler API"
+    },
+	"tags":[
+	{
+		"name": "Api",
+		"description": "Globals Methods"
+	},
+	{
+		"name": "Users",
+		"description": "Users Methods"
+	},
+	{
+		"name": "Messages",
+		"description": "Messages Methods"
+	}
+  ],
+    "paths": {
+      "/api/v1/commons": {
+        "get": {
+		  "tags": ["Api"],
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [],
+          "responses": {}
+        }
+      },
+      "/api/v1/commons/checkAuth/{token}": {
+        "get": {
+		  "tags": ["Api"],
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "token",
+              "in": "path",
+              "required": true
+            }
+          ],
+          "responses": {}
+        }
+      },
+      "/api/v1/users/signup": {
+        "post": {
+		  "tags": ["Users"],
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [],
+          "responses": {}
+        }
+      },
+      "/api/v1/users/signin": {
+        "post": {
+		  "tags": ["Users"],
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [],
+          "responses": {}
+        }
+      },
+      "/api/v1/messages/all": {
+        "get": {
+		  "tags": ["Messages"],
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [],
+          "responses": {}
+        }
+      },
+      "/api/v1/messages": {
+        "get": {
+		  "tags": ["Messages"],
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [],
+          "responses": {}
+        },
+        "post": {
+		  "tags": ["Messages"],
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [],
+          "responses": {}
+        }
+      },
+      "/api/v1/messages/{id}": {
+        "get": {
+		  "tags": ["Messages"],
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true
+            }
+          ],
+          "responses": {}
+        },
+        "put": {
+		  "tags": ["Messages"],
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true
+            }
+          ],
+          "responses": {}
+        },
+        "delete": {
+		  "tags": ["Messages"],
+          "consumes": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true
+            }
+          ],
+          "responses": {}
+        }
+      }
+    },
+    "swagger": "2.0"
+  }

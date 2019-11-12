@@ -4,9 +4,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const cors = require('cors');
-const expressOasGenerator = require('express-oas-generator');
 const swaggerUi = require('swagger-ui-express');
-// const swaggerDocument = require('./assets/swagger.json');
+const swaggerDocument = require('./assets/swagger.json');
 
 // CONTROLLERS
 const commonsController = require('./assets/controllers/commons_controllers');
@@ -25,7 +24,7 @@ dbUtils.dbConnection().then((db) => {
   app.use(cors())
   app.use(bodyParser.json());
   app.use(bodyParser.urlencoded({ extended: true }));
-
+	app.use(`${config.root_url}documentation`, swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 
   /* **** ROUTING **** */
   const commonsRouter = express.Router();

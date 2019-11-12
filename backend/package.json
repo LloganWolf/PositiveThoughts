@@ -35,7 +35,6 @@
     "eslint-plugin-jest": "^23.0.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
-    "express-oas-generator": "^1.0.13",
     "jest": "^24.9.0",
     "mocha": "^6.2.2",
     "morgan": "^1.9.1",
