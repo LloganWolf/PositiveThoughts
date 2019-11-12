@@ -1,0 +1,12 @@
+export const AT_POSTS = {
+    DELETE: 'DELETE_MESSAGE',
+    UPDATE: 'UPDATE_MESSAGE',
+    CREATE: 'CREATE_MESSAGE',
+    READ: 'READ_MESSAGE',
+    READ_ALL: 'READ_MESSAGES',
+}
+
+export const AT_USERS = {
+	LOGIN: 'LOGIN_USER',
+    LOGOUT: 'LOGOUT_USER',
+}
