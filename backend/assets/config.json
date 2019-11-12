@@ -1,0 +1,28 @@
+{
+	"root_url": "/api/v1/",
+	"api_port": 6002,
+	"db": {
+		"host": "localhost",
+		"database": "leitmotiv",
+		"user": "root",
+		"password": ""
+	},
+	"base_url_test" : "http://localhost:6002/",
+	"version_test" : "v1",
+	"token_test": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTU3MzU2NjM0MywiZXhwIjoxNTczNTY5OTQzfQ.6JDtpK97spm5AC7XtHj4yu2nBPXrF1YR7cyI1tVPjM8",
+	"adminMail": "jeremie.lucien@hotmail.fr",
+	"errors": {
+		"credentialError": "Credentials are wrong",
+		"loginData": "Login length problem (between 4 and 20)",
+		"passwordData": "Password invalid (between 4 and 20 and include 1 number)",
+		"emailData": "Email invalid",
+		"emailAlreadyTaken": "Email already taken",
+		"noEmailValue": "No email value",
+		"nameData": "Firstname/Lastname invalid (less than 20)",
+		"noFileUploaded": "No files uploaded",
+		"wrongQuery": "Query errors",
+		"badID": "ID wrong",
+		"noUserid": "ID different to User ID",
+		"badToken": "Token wrong"
+	}
+}
