@@ -1,5 +1,4 @@
 import React, {Component, Fragment} from 'react';
-import { readAllMessages } from '../../Store/Reducers/Actions/action_list';
 import { connect } from 'react-redux';
 import axios from 'axios';
 import PropTypes from 'prop-types';
