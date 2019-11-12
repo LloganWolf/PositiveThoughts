@@ -1,4 +1,4 @@
-# PositiveThoughtsPositiveMinds
+# Positive Thoughts
 *1/ Informations générales*
 Web Application that show your own positive messages. With this website, you can :
    - see all your messages
